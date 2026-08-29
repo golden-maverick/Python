@@ -1,7 +1,6 @@
 temp=float(input("Enter temperature: "))
 if temp <=20:
     low=1
-    high=0
 elif temp>=30:
     low=0
 else:
@@ -19,7 +18,7 @@ if temp<=30:
 elif temp>=40:
     high=1
 else:
-    temp=(temp-30)/10
+    high=(temp-30)/10
 
 slow_speed=30
 medium_speed=60
